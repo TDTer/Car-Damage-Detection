@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+*.db
+
+# Node.js
+node_modules/
+dist/
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Backend specific
+backend/uploads/
+backend/database.db
+backend/venv/
+backend/__pycache__/
+
+# Large Model Files (>100MB)
+*.pt
+backend/models/best.pt
